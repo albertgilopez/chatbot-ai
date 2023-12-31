@@ -6,10 +6,11 @@ Este proyecto implementa un chatbot para WhatsApp utilizando la API de WhatsApp 
 
 El sistema se compone de varios componentes clave que trabajan en conjunto para proporcionar una experiencia interactiva a través de WhatsApp:
 
-Flask Server: Maneja las peticiones HTTP y sirve como el punto de conexión entre WhatsApp y el motor de IA.
-API de WhatsApp Business: Permite recibir y enviar mensajes a través de WhatsApp.
-OpenAI API: Se utiliza para generar respuestas inteligentes a partir de las preguntas recibidas.
-Google Cloud Storage: Almacena y gestiona los vectores de palabras para la IA.
+- Flask Server: Maneja las peticiones HTTP y sirve como el punto de conexión entre WhatsApp y el motor de IA.
+- API de WhatsApp Business: Permite recibir y enviar mensajes a través de WhatsApp.
+- OpenAI API: Se utiliza para generar respuestas inteligentes a partir de las preguntas recibidas.
+- Google Cloud Storage: Almacena y gestiona los vectores de palabras para la IA.
+
 Cuando un mensaje llega a través de WhatsApp, Flask procesa la solicitud, la pasa a la API de OpenAI para generar una respuesta y luego utiliza la API de WhatsApp Business para enviar esta respuesta al usuario.
 
 ![Arquitectura WhatsApp AI Chatbot](whatsapp-ai-chatbot-arquitectura.png)
