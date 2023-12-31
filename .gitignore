@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*~
+.env
+.vscode/
+.idea/
+.DS_Store
+instance/
+.python-version
+venv/
+*.db
