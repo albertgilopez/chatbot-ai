@@ -12,7 +12,7 @@ OpenAI API: Se utiliza para generar respuestas inteligentes a partir de las preg
 Google Cloud Storage: Almacena y gestiona los vectores de palabras para la IA.
 Cuando un mensaje llega a través de WhatsApp, Flask procesa la solicitud, la pasa a la API de OpenAI para generar una respuesta y luego utiliza la API de WhatsApp Business para enviar esta respuesta al usuario.
 
-![Arquitectura WhatsApp AI Chatbot]([URL_DE_LA_IMAGEN](whatsapp-ai-chatbot-arquitectura.png))
+![Arquitectura WhatsApp AI Chatbot](whatsapp-ai-chatbot-arquitectura.png)
 
 ### Requisitos Previos
 
